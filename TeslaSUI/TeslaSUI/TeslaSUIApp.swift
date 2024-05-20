@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct TeslaSUIApp: App {
+struct Tesla_SUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TeslaLogoView()
+                .environment(\.colorScheme, .dark)
         }
     }
 }
+
